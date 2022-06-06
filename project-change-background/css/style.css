@@ -1,0 +1,36 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #e8347d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;/*vh le da el 100x100 de la altura*/
+    flex-direction: column;/*esta propiedad lo colaca en columnas*/
+
+}
+
+#hexa {
+    font-size: 2.1875rem;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;/* esta propiedad lo deja en mayuscula*/
+    margin: 15px;
+}
+button {
+    cursor: pointer;
+    background: none;
+    font-size: 0.9375rem;
+    color: #ffffff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+    outline: none;/*es para que el color del boton no sea trasparante*/
+
+}
